@@ -1,0 +1,29 @@
+products:
+    css: 'div[class="gwrap"]'
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: a.subject.prod
+            type: Text
+        price:
+            css: li.price
+            type: Text
+        seller_name:
+            css: a.seller-name
+            type: Text
+        MOQs:
+            css: span.min
+            type: Text
+        seller_rating:
+            css: span.reviewnum
+            type: Text
+        order:
+            css: span.ordernum
+            type: Text
+        image:
+            xpath: '//a[contains(concat(" ",normalize-space(@class)," ")," pic ")]//img'
+            type: Image
+        link:
+            css: a.subject
+            type: Link

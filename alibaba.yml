@@ -1,0 +1,29 @@
+products:
+    css: 'div[data-content="productItem"]'
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: p.elements-title-normal__content
+            type: Text
+        price:
+            css:  span.elements-offer-price-normal__promotion
+            type: Text
+        seller_rating:
+            css: span.seb-supplier-review-gallery-test__score span
+            type: Text
+        seller_year:
+            css: span.seller-tag__year
+            type: Text
+        review:
+            css: span.seb-supplier-review__review-count
+            type: Text
+        MOQs:
+            css: span.element-offer-minorder-normal__value
+            type: Text
+        image:
+            css: div.seb-img-switcher__imgs > img
+            type: Image
+        link:
+            css: a.elements-title-normal
+            type: Link

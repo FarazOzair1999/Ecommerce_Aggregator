@@ -1,0 +1,26 @@
+products:
+    css: div.item.clearfix
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: h2.word-wrap
+            type: Text
+        price:
+            css: div.payment-info__price
+            type: Text
+        seller_name:
+            css: div.company a.wt-text-link
+            type: Text
+        MOQs:
+            css: div.payment-info__moq
+            type: Text
+        seller_year:
+            css: span.number
+            type: Text
+        image:
+            css: div.image > div > a > img
+            type: Image
+        link:
+            css: a.wt-text-link.underline
+            type: Link
